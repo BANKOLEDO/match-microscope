@@ -22,7 +22,7 @@ import asyncio
 import json
 import re
 
-from .client import build_chat_client
+from .client import build_chat_client, describe_backend
 
 SYSTEM_NARRATOR = (
     "You are a Premier League broadcast narrator. For each moment you are "
@@ -163,6 +163,45 @@ async def _interview(crew, packs, emit):
     return drafts, verdicts, decided
 
 
+def _crew_log(annotations, drafts, verdicts):
+    """Compact, persisted record of the crew's exchange for the trace UI.
+
+    Keeps only what the site needs to *show* the collaboration: a few
+    concrete examples (the flagged claim the Verifier caught, plus a couple
+    it accepted) so a reader can see the agents' actual words without the
+    full 46-row transcript.
+    """
+    draft_by_id = {str(d.get("id")): d for d in drafts if isinstance(d, dict)}
+    verdict_by_id = {str(v.get("id")): v for v in verdicts if isinstance(v, dict)}
+
+    def example(annotation):
+        verdict = verdict_by_id.get(annotation["id"], {})
+        accept = bool(verdict.get("accept", True))
+        draft = draft_by_id.get(annotation["id"], {})
+        return {
+            "id": annotation["id"],
+            "t": annotation["t"],
+            "kind": annotation["kind"],
+            "evidence": annotation.get("evidence", []),
+            "draft": draft.get("en") or annotation["text"]["en"],
+            "accept": accept,
+            "reason": verdict.get("reason", ""),
+            "outcome": "kept" if accept else "rejected",
+        }
+
+    flagged = [a for a in annotations if "evt-9999" in a.get("evidence", [])]
+    flag_ids = {a["id"] for a in flagged}
+    accepted = [a for a in annotations if a["id"] not in flag_ids][:2]
+    return {
+        "model": describe_backend(),
+        "counts": {
+            "drafted": len(drafts),
+            "checked": len(verdicts),
+        },
+        "examples": [example(a) for a in flagged + accepted],
+    }
+
+
 def refine(annotations, state, on_event=None):
     """Run Narrator -> Verifier -> Director over the draft annotations.
 
@@ -179,6 +218,7 @@ def refine(annotations, state, on_event=None):
     packs = [_pack_for(a, state["match"]) for a in annotations]
     drafts, verdicts, decided = asyncio.run(_interview(crew, packs, emit))
 
+    state["crew_log"] = _crew_log(annotations, drafts, verdicts)
     rejected = [v for v in verdicts if not v.get("accept", True)]
     return _merge(annotations, decided, rejected)
 
