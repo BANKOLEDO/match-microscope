@@ -185,6 +185,33 @@ html, body { overflow-x: hidden; }
 }
 .job-detail p { margin: 4px 0 0; font-size: 13px; line-height: 1.5; color: var(--text-muted); }
 
+.crew-wrap { overflow: hidden; }
+.agent-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
+.agent-chip {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 8px 10px;
+  background: var(--bg-elevated);
+}
+.agent-name { font-size: 15px; color: var(--text-primary); }
+.agent-role { font-size: 11px; color: var(--text-muted); margin-top: 2px; line-height: 1.4; }
+.crew-cases { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.crew-case {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--safe);
+  border-radius: 6px;
+  padding: 10px 12px;
+  background: var(--bg-elevated);
+}
+.crew-case-bad { border-left-color: var(--danger); }
+.crew-case-head { display: flex; gap: 8px; align-items: center; font-size: 11px; margin-bottom: 8px; }
+.crew-case-id { color: var(--text-dim); }
+.crew-case-verdict { margin-left: auto; text-transform: uppercase; letter-spacing: 0.06em; font-size: 10px; }
+.crew-beat { display: grid; grid-template-columns: 64px 1fr; gap: 8px; padding: 3px 0; font-size: 12px; }
+.crew-agent { color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; font-size: 10px; padding-top: 2px; }
+.crew-said { color: var(--text-primary); }
+
 .tab-body { flex: 1; min-height: 0; overflow: hidden; padding: 14px 16px 16px; }
 
 /* Featured moment: one big story at a time, pager instead of scroll. */
