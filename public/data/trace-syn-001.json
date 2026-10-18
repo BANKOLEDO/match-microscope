@@ -67,65 +67,111 @@
   {
    "from": "director",
    "to": "ingest",
-   "timestamp": 1792330495.2,
+   "timestamp": 1792332541.7,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "ingest",
    "to": "tracker",
-   "timestamp": 1792330495.8,
+   "timestamp": 1792332542.1,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "tracker",
    "to": "pressure",
-   "timestamp": 1792330496.3,
+   "timestamp": 1792332542.3,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "pressure",
    "to": "lanes",
-   "timestamp": 1792330503.4,
+   "timestamp": 1792332548.4,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "lanes",
    "to": "space",
-   "timestamp": 1792330504.6,
+   "timestamp": 1792332549.1,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "space",
    "to": "charts",
-   "timestamp": 1792330504.7,
+   "timestamp": 1792332549.1,
    "payload_size": 72276,
    "status": "ok"
   },
   {
    "from": "charts",
    "to": "explain",
-   "timestamp": 1792330619.6,
+   "timestamp": 1792332656.7,
    "payload_size": 72322,
    "status": "ok"
   },
   {
    "from": "explain",
    "to": "verify",
-   "timestamp": 1792330619.6,
+   "timestamp": 1792332656.7,
    "payload_size": 72322,
    "status": "ok"
   },
   {
    "from": "verify",
    "to": "personalize",
-   "timestamp": 1792330619.7,
+   "timestamp": 1792332656.8,
    "payload_size": 72322,
    "status": "ok"
   }
- ]
+ ],
+ "crew": {
+  "model": "openai:gpt-5-mini",
+  "counts": {
+   "drafted": 46,
+   "checked": 46
+  },
+  "examples": [
+   {
+    "id": "ann-0033",
+    "t": 300.0,
+    "kind": "press",
+    "evidence": [
+     "evt-9999"
+    ],
+    "draft": "Unverified: sustained midfield pressure reported \u2014 claim not confirmed.",
+    "accept": false,
+    "reason": "Cited event id evt-9999 not found in raw events.",
+    "outcome": "rejected"
+   },
+   {
+    "id": "ann-0001",
+    "t": 0.0,
+    "kind": "space",
+    "evidence": [
+     "evt-0001",
+     "evt-0002"
+    ],
+    "draft": "The box lies empty for five seconds \u2014 huge attacking opportunity.",
+    "accept": true,
+    "reason": "All cited event ids (evt-0001, evt-0002) found and do not contradict the claim.",
+    "outcome": "kept"
+   },
+   {
+    "id": "ann-0002",
+    "t": 2.0,
+    "kind": "dribble",
+    "evidence": [
+     "evt-0001"
+    ],
+    "draft": "NOR-08 charges 14m through midfield, driving play forward.",
+    "accept": true,
+    "reason": "All cited event ids (evt-0001) found and do not contradict the claim.",
+    "outcome": "kept"
+   }
+  ]
+ }
 }
