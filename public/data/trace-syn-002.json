@@ -67,65 +67,112 @@
   {
    "from": "director",
    "to": "ingest",
-   "timestamp": 1792330495.5,
+   "timestamp": 1792332541.8,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "ingest",
    "to": "tracker",
-   "timestamp": 1792330495.9,
+   "timestamp": 1792332542.5,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "tracker",
    "to": "pressure",
-   "timestamp": 1792330496.5,
+   "timestamp": 1792332542.8,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "pressure",
    "to": "lanes",
-   "timestamp": 1792330503.4,
+   "timestamp": 1792332550.3,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "lanes",
    "to": "space",
-   "timestamp": 1792330504.6,
+   "timestamp": 1792332550.9,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "space",
    "to": "charts",
-   "timestamp": 1792330504.6,
+   "timestamp": 1792332550.9,
    "payload_size": 72279,
    "status": "ok"
   },
   {
    "from": "charts",
    "to": "explain",
-   "timestamp": 1792330608.0,
+   "timestamp": 1792332655.6,
    "payload_size": 72325,
    "status": "ok"
   },
   {
    "from": "explain",
    "to": "verify",
-   "timestamp": 1792330608.0,
+   "timestamp": 1792332655.6,
    "payload_size": 72325,
    "status": "ok"
   },
   {
    "from": "verify",
    "to": "personalize",
-   "timestamp": 1792330608.0,
+   "timestamp": 1792332655.6,
    "payload_size": 72325,
    "status": "ok"
   }
- ]
+ ],
+ "crew": {
+  "model": "openai:gpt-5-mini",
+  "counts": {
+   "drafted": 46,
+   "checked": 46
+  },
+  "examples": [
+   {
+    "id": "ann-0023",
+    "t": 300.0,
+    "kind": "press",
+    "evidence": [
+     "evt-9999"
+    ],
+    "draft": "Unverified: sustained pressure in midfield reported, score still 2-3.",
+    "accept": false,
+    "reason": "Cited event evt-9999 does not exist (lookup returned NOT FOUND), so the claim cannot be verified.",
+    "outcome": "rejected"
+   },
+   {
+    "id": "ann-0001",
+    "t": 0.0,
+    "kind": "space",
+    "evidence": [
+     "evt-0001",
+     "evt-0002",
+     "evt-0003"
+    ],
+    "draft": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "accept": true,
+    "reason": "All cited event ids (evt-0001, evt-0002, evt-0003) exist; no clear contradiction with the claim.",
+    "outcome": "kept"
+   },
+   {
+    "id": "ann-0002",
+    "t": 1.8,
+    "kind": "dribble",
+    "evidence": [
+     "evt-0001"
+    ],
+    "draft": "NOR-08 drives 14m through midfield, score stays 2-3.",
+    "accept": true,
+    "reason": "Cited event evt-0001 exists and matches a dribble by NOR-08 at t=1.8, consistent with the claim.",
+    "outcome": "kept"
+   }
+  ]
+ }
 }
