@@ -1,0 +1,131 @@
+{
+ "match": "syn-002",
+ "agents": "openai:gpt-5-mini",
+ "jobs": [
+  {
+   "job": "ingest",
+   "status": "ok",
+   "detail": "3000 frames, 279 events",
+   "attempts": 1
+  },
+  {
+   "job": "tracker",
+   "status": "ok",
+   "detail": "3000 frames tracked, NOR 34% possession",
+   "attempts": 1
+  },
+  {
+   "job": "pressure",
+   "status": "ok",
+   "detail": "3000 scores, peak 2.75",
+   "attempts": 1
+  },
+  {
+   "job": "lanes",
+   "status": "ok",
+   "detail": "260 lane sets, 87 low-risk options",
+   "attempts": 1
+  },
+  {
+   "job": "space",
+   "status": "ok",
+   "detail": "120 heat maps",
+   "attempts": 1
+  },
+  {
+   "job": "charts",
+   "status": "ok",
+   "detail": "20 links, 120 momentum windows, 22 shots",
+   "attempts": 1
+  },
+  {
+   "job": "explain",
+   "status": "ok",
+   "detail": "46 annotations (45 grounded, agentic)",
+   "attempts": 1
+  },
+  {
+   "job": "verify",
+   "status": "ok",
+   "detail": "45 verified, 1 failed",
+   "attempts": 1
+  },
+  {
+   "job": "personalize",
+   "status": "ok",
+   "detail": "4 modes x 3 langs, 22 player profiles",
+   "attempts": 1
+  },
+  {
+   "job": "director",
+   "status": "ok",
+   "detail": "trace written (agentic)",
+   "attempts": 1
+  }
+ ],
+ "handoffs": [
+  {
+   "from": "director",
+   "to": "ingest",
+   "timestamp": 1792330495.5,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "ingest",
+   "to": "tracker",
+   "timestamp": 1792330495.9,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "tracker",
+   "to": "pressure",
+   "timestamp": 1792330496.5,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "pressure",
+   "to": "lanes",
+   "timestamp": 1792330503.4,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "lanes",
+   "to": "space",
+   "timestamp": 1792330504.6,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "space",
+   "to": "charts",
+   "timestamp": 1792330504.6,
+   "payload_size": 72279,
+   "status": "ok"
+  },
+  {
+   "from": "charts",
+   "to": "explain",
+   "timestamp": 1792330608.0,
+   "payload_size": 72325,
+   "status": "ok"
+  },
+  {
+   "from": "explain",
+   "to": "verify",
+   "timestamp": 1792330608.0,
+   "payload_size": 72325,
+   "status": "ok"
+  },
+  {
+   "from": "verify",
+   "to": "personalize",
+   "timestamp": 1792330608.0,
+   "payload_size": 72325,
+   "status": "ok"
+  }
+ ]
+}
