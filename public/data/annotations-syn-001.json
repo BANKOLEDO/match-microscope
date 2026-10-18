@@ -1,0 +1,764 @@
+{
+ "match": "syn-001",
+ "annotations": [
+  {
+   "id": "ann-0001",
+   "t": 0.0,
+   "kind": "space",
+   "text": {
+    "en": "Box left unoccupied for 5 seconds \u2014 open space.",
+    "es": "\u00c1rea desierta durante 5 segundos \u2014 espacio abierto.",
+    "fr": "La surface rest\u00e9e vide 5 secondes \u2014 espace ouvert."
+   },
+   "evidence": [
+    "evt-0001",
+    "evt-0002"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0002",
+   "t": 2.0,
+   "kind": "dribble",
+   "text": {
+    "en": "NOR-08 surges 14m through midfield.",
+    "es": "NOR-08 avanza 14 m por el centro del campo.",
+    "fr": "NOR-08 progresse 14 m au milieu de terrain."
+   },
+   "evidence": [
+    "evt-0001"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0003",
+   "t": 5.0,
+   "kind": "space",
+   "text": {
+    "en": "Box remains unoccupied for 5 seconds \u2014 open space.",
+    "es": "El \u00e1rea sigue desocupada durante 5 segundos \u2014 espacio abierto.",
+    "fr": "La surface reste inoccup\u00e9e 5 secondes \u2014 espace libre."
+   },
+   "evidence": [
+    "evt-0001",
+    "evt-0002",
+    "evt-0003"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0004",
+   "t": 10.0,
+   "kind": "space",
+   "text": {
+    "en": "Nobody in the box for 5 seconds \u2014 open space.",
+    "es": "Nadie en el \u00e1rea durante 5 segundos \u2014 espacio desocupado.",
+    "fr": "Personne dans la surface pendant 5 secondes \u2014 espace libre."
+   },
+   "evidence": [
+    "evt-0003",
+    "evt-0004",
+    "evt-0005"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0005",
+   "t": 13.0,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: RIV regain possession inside the box.",
+    "es": "P\u00e9rdida: RIV recupera el bal\u00f3n en el \u00e1rea.",
+    "fr": "Perte de balle\u00a0: RIV r\u00e9cup\u00e8re dans la surface."
+   },
+   "evidence": [
+    "evt-0006"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0006",
+   "t": 14.0,
+   "kind": "lane",
+   "text": {
+    "en": "RIV-07 creates a lane to RIV-11 \u2014 medium risk.",
+    "es": "RIV-07 abre una v\u00eda hacia RIV-11 \u2014 riesgo medio.",
+    "fr": "RIV-07 ouvre une ligne vers RIV-11 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0004",
+    "evt-0005",
+    "evt-0006"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0007",
+   "t": 15.0,
+   "kind": "space",
+   "text": {
+    "en": "Five seconds with the box unoccupied \u2014 open space.",
+    "es": "Cinco segundos con el \u00e1rea desocupada \u2014 espacio abierto.",
+    "fr": "Cinq secondes la surface inoccup\u00e9e \u2014 espace ouvert."
+   },
+   "evidence": [
+    "evt-0005",
+    "evt-0006",
+    "evt-0007"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0008",
+   "t": 20.0,
+   "kind": "space",
+   "text": {
+    "en": "Box empty for 5 seconds \u2014 space remains unoccupied.",
+    "es": "\u00c1rea vac\u00eda durante 5 segundos \u2014 sigue desocupada.",
+    "fr": "Surface vide depuis 5 secondes \u2014 espace inoccup\u00e9."
+   },
+   "evidence": [
+    "evt-0007",
+    "evt-0008",
+    "evt-0009"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0009",
+   "t": 25.0,
+   "kind": "space",
+   "text": {
+    "en": "Box unoccupied for 5 seconds \u2014 clear open space.",
+    "es": "El \u00e1rea sin ocupantes 5 segundos \u2014 espacio claro.",
+    "fr": "La surface inoccup\u00e9e 5 secondes \u2014 espace libre."
+   },
+   "evidence": [
+    "evt-0010",
+    "evt-0011",
+    "evt-0012"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0010",
+   "t": 76.8,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: RIV recover possession at midfield.",
+    "es": "P\u00e9rdida: RIV recupera posesi\u00f3n en el centro del campo.",
+    "fr": "Perte de balle\u00a0: RIV r\u00e9cup\u00e8re au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0037"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0011",
+   "t": 85.0,
+   "kind": "dribble",
+   "text": {
+    "en": "RIV-11 drives 14m through midfield.",
+    "es": "RIV-11 avanza 14 m por el centro.",
+    "fr": "RIV-11 progresse 14 m au milieu."
+   },
+   "evidence": [
+    "evt-0042"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0012",
+   "t": 108.2,
+   "kind": "goal",
+   "text": {
+    "en": "GOAL \u2014 RIV-11 scores to make it 3-2.",
+    "es": "\u00a1GOL! RIV-11 marca \u2014 3-2.",
+    "fr": "BUT\u00a0! RIV-11 marque \u2014 3-2."
+   },
+   "evidence": [
+    "evt-0052"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0013",
+   "t": 108.2,
+   "kind": "shot",
+   "text": {
+    "en": "RIV-11 shoots from the box \u2014 xG 0.55.",
+    "es": "Tiro de RIV-11 desde el \u00e1rea \u2014 xG 0.55.",
+    "fr": "Tir de RIV-11 depuis la surface \u2014 xG 0.55."
+   },
+   "evidence": [
+    "evt-0051"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0014",
+   "t": 178.2,
+   "kind": "shot",
+   "text": {
+    "en": "RIV-11 lets fly from the box \u2014 xG 0.30.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.30.",
+    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.30."
+   },
+   "evidence": [
+    "evt-0078"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0015",
+   "t": 179.4,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: NOR recover possession in the box.",
+    "es": "P\u00e9rdida: NOR recupera el bal\u00f3n en el \u00e1rea.",
+    "fr": "Perte de balle\u00a0: NOR r\u00e9cup\u00e8re dans la surface."
+   },
+   "evidence": [
+    "evt-0080"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0016",
+   "t": 180.0,
+   "kind": "lane",
+   "text": {
+    "en": "NOR-07 creates a lane to NOR-09 \u2014 medium risk.",
+    "es": "NOR-07 genera una v\u00eda hacia NOR-09 \u2014 riesgo medio.",
+    "fr": "NOR-07 cr\u00e9e une ligne vers NOR-09 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0082"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0017",
+   "t": 180.0,
+   "kind": "lane",
+   "text": {
+    "en": "NOR-07 finds a lane to NOR-10 \u2014 medium risk.",
+    "es": "NOR-07 encuentra una v\u00eda hacia NOR-10 \u2014 riesgo medio.",
+    "fr": "NOR-07 ouvre un couloir vers NOR-10 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0082"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0018",
+   "t": 180.0,
+   "kind": "lane",
+   "text": {
+    "en": "NOR-07 carves a lane to NOR-11 \u2014 medium risk.",
+    "es": "NOR-07 abre una v\u00eda hacia NOR-11 \u2014 riesgo medio.",
+    "fr": "NOR-07 ouvre une ligne vers NOR-11 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0082"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0019",
+   "t": 189.6,
+   "kind": "dribble",
+   "text": {
+    "en": "NOR-11 charges 14m through midfield.",
+    "es": "NOR-11 avanza 14 m por el centro del campo.",
+    "fr": "NOR-11 progresse 14 m au milieu."
+   },
+   "evidence": [
+    "evt-0085"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0020",
+   "t": 196.0,
+   "kind": "goal",
+   "text": {
+    "en": "GOAL \u2014 NOR-10 scores to make it 3-2.",
+    "es": "\u00a1GOL! NOR-10 marca \u2014 3-2.",
+    "fr": "BUT\u00a0! NOR-10 marque \u2014 3-2."
+   },
+   "evidence": [
+    "evt-0090"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0021",
+   "t": 196.0,
+   "kind": "shot",
+   "text": {
+    "en": "NOR-10 shoots from the box \u2014 xG 0.30.",
+    "es": "Tiro de NOR-10 desde el \u00e1rea \u2014 xG 0.30.",
+    "fr": "Tir de NOR-10 depuis la surface \u2014 xG 0.30."
+   },
+   "evidence": [
+    "evt-0089"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0022",
+   "t": 237.4,
+   "kind": "shot",
+   "text": {
+    "en": "RIV-11 fires from the box \u2014 xG 0.36.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.36.",
+    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.36."
+   },
+   "evidence": [
+    "evt-0108"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0023",
+   "t": 243.2,
+   "kind": "press",
+   "text": {
+    "en": "High press on RIV-11 \u2014 three opponents within 5m.",
+    "es": "Presi\u00f3n alta sobre RIV-11 \u2014 3 rivales a menos de 5 m.",
+    "fr": "Pressing haut sur RIV-11 \u2014 3 adversaires \u00e0 moins de 5 m."
+   },
+   "evidence": [
+    "evt-0111",
+    "evt-0112"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0024",
+   "t": 243.4,
+   "kind": "press",
+   "text": {
+    "en": "RIV-11 under heavy press \u2014 three players within 5m.",
+    "es": "RIV-11 bajo fuerte presi\u00f3n \u2014 3 jugadores a menos de 5 m.",
+    "fr": "RIV-11 sous forte pression \u2014 3 joueurs \u00e0 moins de 5 m."
+   },
+   "evidence": [
+    "evt-0111",
+    "evt-0112"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0025",
+   "t": 243.6,
+   "kind": "press",
+   "text": {
+    "en": "RIV-11 tightly pressed \u2014 3 opponents inside 5m.",
+    "es": "RIV-11 muy presionado \u2014 3 oponentes dentro de 5 m.",
+    "fr": "RIV-11 sous pression serr\u00e9e \u2014 3 adversaires \u00e0 moins de 5 m."
+   },
+   "evidence": [
+    "evt-0111",
+    "evt-0112"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0026",
+   "t": 243.8,
+   "kind": "press",
+   "text": {
+    "en": "Three players pressuring RIV-11 within 5m \u2014 high press.",
+    "es": "Tres jugadores presionan a RIV-11 a menos de 5 m \u2014 presi\u00f3n alta.",
+    "fr": "Trois joueurs pressent RIV-11 \u00e0 moins de 5 m \u2014 pressing haut."
+   },
+   "evidence": [
+    "evt-0111",
+    "evt-0112"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0027",
+   "t": 246.0,
+   "kind": "lane",
+   "text": {
+    "en": "NOR-03 threads a lane to NOR-09 \u2014 medium risk.",
+    "es": "NOR-03 abre una v\u00eda hacia NOR-09 \u2014 riesgo medio.",
+    "fr": "NOR-03 ouvre une ligne vers NOR-09 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0111",
+    "evt-0112",
+    "evt-0113"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0028",
+   "t": 251.4,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: RIV regain possession at midfield.",
+    "es": "P\u00e9rdida: RIV recupera la posesi\u00f3n en el centro del campo.",
+    "fr": "Perte de balle\u00a0: RIV r\u00e9cup\u00e8re au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0116"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0029",
+   "t": 268.4,
+   "kind": "dribble",
+   "text": {
+    "en": "RIV-11 carries the ball 14m through midfield.",
+    "es": "RIV-11 conduce 14 m por el centro del campo.",
+    "fr": "RIV-11 porte 14 m au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0126"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0030",
+   "t": 288.6,
+   "kind": "press",
+   "text": {
+    "en": "RIV-11 faces a high press \u2014 three opponents within 5m.",
+    "es": "RIV-11 enfrenta presi\u00f3n alta \u2014 3 oponentes dentro de 5 m.",
+    "fr": "RIV-11 subit un pressing haut \u2014 3 adversaires \u00e0 moins de 5 m."
+   },
+   "evidence": [
+    "evt-0132",
+    "evt-0133"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0031",
+   "t": 298.6,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: NOR recover possession in the box.",
+    "es": "P\u00e9rdida: NOR recupera el bal\u00f3n en el \u00e1rea.",
+    "fr": "Perte de balle\u00a0: NOR r\u00e9cup\u00e8re dans la surface."
+   },
+   "evidence": [
+    "evt-0138"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0032",
+   "t": 300.0,
+   "kind": "lane",
+   "text": {
+    "en": "NOR-07 finds a lane to NOR-11 \u2014 medium risk.",
+    "es": "NOR-07 encuentra una v\u00eda hacia NOR-11 \u2014 riesgo medio.",
+    "fr": "NOR-07 ouvre une ligne vers NOR-11 \u2014 risque moyen."
+   },
+   "evidence": [
+    "evt-0141"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0033",
+   "t": 300.0,
+   "kind": "press",
+   "text": {
+    "en": "Sustained pressure in midfield -- unverified claim",
+    "es": "Presi\u00f3n sostenida en el mediocampo -- afirmaci\u00f3n sin verificar",
+    "fr": "Pression soutenue au milieu -- affirmation non v\u00e9rifi\u00e9e"
+   },
+   "evidence": [
+    "evt-9999"
+   ],
+   "confidence": 0.5,
+   "job": "explain",
+   "agent_rejected": true,
+   "verified": false,
+   "reason": "evidence evt-9999 not found in match events"
+  },
+  {
+   "id": "ann-0034",
+   "t": 315.2,
+   "kind": "goal",
+   "text": {
+    "en": "GOAL \u2014 NOR-09 scores to make it 3-2.",
+    "es": "\u00a1GOL! NOR-09 marca \u2014 3-2.",
+    "fr": "BUT\u00a0! NOR-09 marque \u2014 3-2."
+   },
+   "evidence": [
+    "evt-0148"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0035",
+   "t": 328.8,
+   "kind": "shot",
+   "text": {
+    "en": "NOR-10 shoots from the box \u2014 xG 0.37.",
+    "es": "Tiro de NOR-10 desde el \u00e1rea \u2014 xG 0.37.",
+    "fr": "Tir de NOR-10 depuis la surface \u2014 xG 0.37."
+   },
+   "evidence": [
+    "evt-0155"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0036",
+   "t": 342.0,
+   "kind": "press",
+   "text": {
+    "en": "High press on NOR-10 \u2014 three opponents within 5m.",
+    "es": "Presi\u00f3n alta sobre NOR-10 \u2014 3 rivales a menos de 5 m.",
+    "fr": "Pressing haut sur NOR-10 \u2014 3 adversaires \u00e0 moins de 5 m."
+   },
+   "evidence": [
+    "evt-0156",
+    "evt-0157"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0037",
+   "t": 344.0,
+   "kind": "shot",
+   "text": {
+    "en": "NOR-10 fires from the box \u2014 xG 0.37.",
+    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.37.",
+    "fr": "NOR-10 frappe depuis la surface \u2014 xG 0.37."
+   },
+   "evidence": [
+    "evt-0156"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0038",
+   "t": 350.6,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: NOR win it back at midfield.",
+    "es": "P\u00e9rdida: NOR recupera la posesi\u00f3n en el centro del campo.",
+    "fr": "Perte de balle\u00a0: NOR r\u00e9cup\u00e8re au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0160"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0039",
+   "t": 381.8,
+   "kind": "dribble",
+   "text": {
+    "en": "NOR-09 carries 14m through midfield.",
+    "es": "NOR-09 avanza 14 m por el centro del campo.",
+    "fr": "NOR-09 progresse 14 m au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0172"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0040",
+   "t": 440.6,
+   "kind": "goal",
+   "text": {
+    "en": "GOAL \u2014 RIV-09 scores to make it 3-2.",
+    "es": "\u00a1GOL! RIV-09 marca \u2014 3-2.",
+    "fr": "BUT\u00a0! RIV-09 marque \u2014 3-2."
+   },
+   "evidence": [
+    "evt-0205"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0041",
+   "t": 478.8,
+   "kind": "dribble",
+   "text": {
+    "en": "RIV-09 carries 14m through midfield.",
+    "es": "RIV-09 avanza 14 m por el centro del campo.",
+    "fr": "RIV-09 progresse 14 m au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0222"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0042",
+   "t": 490.0,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: NOR recover possession at midfield.",
+    "es": "P\u00e9rdida: NOR recupera el bal\u00f3n en el centro del campo.",
+    "fr": "Perte de balle\u00a0: NOR r\u00e9cup\u00e8re au milieu du terrain."
+   },
+   "evidence": [
+    "evt-0228"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0043",
+   "t": 500.0,
+   "kind": "goal",
+   "text": {
+    "en": "GOAL \u2014 NOR-10 scores to make it 3-2.",
+    "es": "\u00a1GOL! NOR-10 marca \u2014 3-2.",
+    "fr": "BUT\u00a0! NOR-10 marque \u2014 3-2."
+   },
+   "evidence": [
+    "evt-0235"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0044",
+   "t": 500.0,
+   "kind": "shot",
+   "text": {
+    "en": "NOR-10 shoots from the box \u2014 xG 0.34.",
+    "es": "Tiro de NOR-10 desde el \u00e1rea \u2014 xG 0.34.",
+    "fr": "Tir de NOR-10 depuis la surface \u2014 xG 0.34."
+   },
+   "evidence": [
+    "evt-0234"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0045",
+   "t": 516.8,
+   "kind": "turnover",
+   "text": {
+    "en": "Turnover: RIV regain possession inside the box.",
+    "es": "P\u00e9rdida: RIV recupera el bal\u00f3n en el \u00e1rea.",
+    "fr": "Perte de balle\u00a0: RIV r\u00e9cup\u00e8re dans la surface."
+   },
+   "evidence": [
+    "evt-0244"
+   ],
+   "confidence": 0.74,
+   "job": "explain",
+   "verified": true
+  },
+  {
+   "id": "ann-0046",
+   "t": 557.6,
+   "kind": "shot",
+   "text": {
+    "en": "RIV-11 shoots from the box \u2014 xG 0.33.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.33.",
+    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.33."
+   },
+   "evidence": [
+    "evt-0262"
+   ],
+   "confidence": 0.78,
+   "job": "explain",
+   "verified": true
+  }
+ ]
+}
