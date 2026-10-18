@@ -1,0 +1,15 @@
+# Optional: enables the Microsoft Agent Framework crew (Narrator / Verifier /
+# Director) so the explain job narrates and fact-checks with a real model.
+#
+# Install ONLY these two wheels -- do NOT `pip install agent-framework`,
+# which is a meta-package that pulls every provider (Azure, Gemini, Claude...)
+# and is far heavier than this project needs:
+#
+#     pip install -r pipeline/requirements-agents.txt
+#
+# Runtime stays offline-first: without credentials the crew is skipped and
+# the explain job renders grounded templates. Point it at Microsoft Foundry /
+# Azure OpenAI (AZURE_OPENAI_*) or any OpenAI-compatible endpoint
+# (OPENAI_API_KEY) to run the agents for real.
+agent-framework-core==1.22.0
+agent-framework-openai==1.17.0
