@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import ChartPanel from '../components/ChartPanel';
 import CommandBar from '../components/CommandBar';
+import CrewTrace from '../components/CrewTrace';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 import MatchSwitcher from '../components/MatchSwitcher';
 import PipelinePanel from '../components/PipelinePanel';
@@ -81,7 +82,7 @@ export default function Page() {
   const [error, setError] = useState<string | null>(null);
   const [ready, setReady] = useState(false);
   const [welcomed, setWelcomed] = useState(true);
-  const [tab, setTab] = useState<'moments' | 'signals' | 'players' | 'direct' | 'story'>('moments');
+  const [tab, setTab] = useState<'moments' | 'signals' | 'players' | 'direct' | 'story' | 'crew'>('moments');
   const [custom, setCustom] = useState<ImportBundle | null>(null);
   const [importError, setImportError] = useState<string | null>(null);
   const [dragging, setDragging] = useState(false);
@@ -641,7 +642,7 @@ export default function Page() {
 
             <div className="col-right">
               <div className="tabs" role="tablist" aria-label="analysis panels">
-                {(['moments', 'signals', 'players', 'direct', 'story'] as const).map((t) => (
+                {(['moments', 'signals', 'players', 'direct', 'story', 'crew'] as const).map((t) => (
                   <button
                     key={t}
                     type="button"
@@ -658,7 +659,9 @@ export default function Page() {
                           ? 'Players'
                           : t === 'direct'
                             ? 'Direct'
-                            : 'Story'}
+                            : t === 'story'
+                              ? 'Story'
+                              : 'Crew'}
                   </button>
                 ))}
               </div>
@@ -793,6 +796,7 @@ export default function Page() {
                   <CommandBar events={data.events} pressure={charts.pressure_frames} homeId={data.match.home.id} fps={fps} duration={duration} onSeek={seek} onSetRole={setRole} />
                 )}
                 {tab === 'story' && <PipelinePanel trace={trace} trust={trust} />}
+                {tab === 'crew' && <CrewTrace trace={trace} />}
               </div>
             </div>
           </div>
