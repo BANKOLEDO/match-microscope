@@ -6,16 +6,16 @@
    "t": 0.0,
    "kind": "space",
    "text": {
-    "en": "The penalty box lies empty for 5 seconds \u2014 huge space available.",
-    "es": "El \u00e1rea queda vac\u00eda durante 5 segundos \u2014 mucho espacio disponible.",
-    "fr": "La surface reste vide pendant 5 secondes \u2014 espace \u00e9norme disponible."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0001",
     "evt-0002",
     "evt-0003"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -24,14 +24,14 @@
    "t": 1.8,
    "kind": "dribble",
    "text": {
-    "en": "NOR-08 charges 14m through midfield, driving the move forward.",
-    "es": "NOR-08 avanza 14m por el mediocampo, impulsando la jugada.",
-    "fr": "NOR-08 progresse 14m au milieu de terrain, lan\u00e7ant l'action."
+    "en": "NOR-08 drives 14m through midfield, score stays 2-3.",
+    "es": "NOR-08 avanza 14m por el centro, marcador 2-3.",
+    "fr": "NOR-08 progresse 14m por le milieu, score 2-3."
    },
    "evidence": [
     "evt-0001"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -40,14 +40,14 @@
    "t": 3.2,
    "kind": "turnover",
    "text": {
-    "en": "RIV regain possession at midfield \u2014 turnover forced.",
-    "es": "RIV recupera la posesi\u00f3n en el mediocampo \u2014 p\u00e9rdida del rival.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon au milieu \u2014 perte de possession."
+    "en": "Turnover \u2014 RIV regain possession at midfield, game 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera en el centro del campo, 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re au milieu, score 2-3."
    },
    "evidence": [
     "evt-0003"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -56,16 +56,16 @@
    "t": 5.0,
    "kind": "space",
    "text": {
-    "en": "Penalty area unguarded for 5 seconds \u2014 space to exploit.",
-    "es": "\u00c1rea sin vigilancia durante 5 segundos \u2014 espacio para aprovechar.",
-    "fr": "Surface inoccup\u00e9e pendant 5 secondes \u2014 espace \u00e0 exploiter."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0001",
     "evt-0002",
     "evt-0003"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -74,16 +74,16 @@
    "t": 10.0,
    "kind": "space",
    "text": {
-    "en": "Box empty for 5 seconds \u2014 attackers should notice the gap.",
-    "es": "El \u00e1rea est\u00e1 vac\u00eda 5 segundos \u2014 los atacantes lo notan.",
-    "fr": "La surface vide pendant 5 secondes \u2014 les attaquants doivent en profiter."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0004",
     "evt-0005",
     "evt-0006"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -92,14 +92,14 @@
    "t": 14.4,
    "kind": "goal",
    "text": {
-    "en": "RIV-11 finds the net \u2014 goal recorded (2-3).",
-    "es": "RIV-11 encuentra la red \u2014 gol anotado (2-3).",
-    "fr": "RIV-11 trouve le filet \u2014 but inscrit (2-3)."
+    "en": "GOAL! RIV-11 buries it \u2014 score now 2-3.",
+    "es": "\u00a1GOL! RIV-11 anota \u2014 marcador 2-3.",
+    "fr": "BUT ! RIV-11 marque \u2014 score 2-3."
    },
    "evidence": [
     "evt-0010"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -108,14 +108,14 @@
    "t": 14.4,
    "kind": "shot",
    "text": {
-    "en": "RIV-11 fires from the box \u2014 xG 0.53.",
-    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.53.",
-    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.53."
+    "en": "RIV-11 shoots from the box \u2014 xG 0.53, score 2-3.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.53, marcador 2-3.",
+    "fr": "RIV-11 tire depuis la surface \u2014 xG 0.53, score 2-3."
    },
    "evidence": [
     "evt-0009"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -124,16 +124,16 @@
    "t": 15.0,
    "kind": "space",
    "text": {
-    "en": "The box remains unoccupied for 5 seconds \u2014 space opens up.",
-    "es": "El \u00e1rea sigue desocupada 5 segundos \u2014 se abre espacio.",
-    "fr": "La surface reste inoccup\u00e9e 5 secondes \u2014 espace qui s'ouvre."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0007",
     "evt-0008",
     "evt-0009"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -142,16 +142,16 @@
    "t": 20.0,
    "kind": "space",
    "text": {
-    "en": "Penalty area unguarded for 5 seconds \u2014 risk for defenders.",
-    "es": "\u00c1rea sin vigilancia durante 5 segundos \u2014 riesgo defensivo.",
-    "fr": "Surface inoccup\u00e9e 5 secondes \u2014 danger pour la d\u00e9fense."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0011",
     "evt-0012",
     "evt-0013"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -160,16 +160,16 @@
    "t": 25.0,
    "kind": "space",
    "text": {
-    "en": "Box empty for 5 seconds \u2014 clear attacking opportunity.",
-    "es": "\u00c1rea vac\u00eda durante 5 segundos \u2014 oportunidad clara de ataque.",
-    "fr": "Surface vide 5 secondes \u2014 belle opportunit\u00e9 offensive."
+    "en": "Box empty for 5s \u2014 scoreboard reads 2-3.",
+    "es": "\u00c1rea vac\u00eda durante 5s \u2014 marcador 2-3.",
+    "fr": "La surface vide pendant 5s \u2014 score 2-3."
    },
    "evidence": [
     "evt-0013",
     "evt-0014",
     "evt-0015"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -178,14 +178,14 @@
    "t": 53.8,
    "kind": "shot",
    "text": {
-    "en": "RIV-11 shoots from the box \u2014 xG 0.29.",
-    "es": "RIV-11 lanza desde el \u00e1rea \u2014 xG 0.29.",
-    "fr": "RIV-11 tente depuis la surface \u2014 xG 0.29."
+    "en": "RIV-11 with a box shot \u2014 xG 0.29, score 2-3.",
+    "es": "RIV-11 con un disparo desde el \u00e1rea \u2014 xG 0.29, 2-3.",
+    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.29, score 2-3."
    },
    "evidence": [
     "evt-0016"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -194,14 +194,14 @@
    "t": 87.8,
    "kind": "turnover",
    "text": {
-    "en": "RIV win it back at midfield \u2014 turnover regained.",
-    "es": "RIV recupera la pelota en el mediocampo \u2014 p\u00e9rdida rival.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon au milieu \u2014 r\u00e9cup\u00e9ration."
+    "en": "Turnover \u2014 RIV win it back at midfield, score 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera en el centro del campo, 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re au milieu, score 2-3."
    },
    "evidence": [
     "evt-0030"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -210,14 +210,14 @@
    "t": 118.6,
    "kind": "dribble",
    "text": {
-    "en": "RIV-08 carries 14m through midfield, progressing the attack.",
-    "es": "RIV-08 conduce 14m por el mediocampo, avanzando la acci\u00f3n.",
-    "fr": "RIV-08 transporte 14m dans l'entrejeu, faisant avancer l'attaque."
+    "en": "RIV-08 carries 14m through midfield, scoreboard 2-3.",
+    "es": "RIV-08 avanza 14m por el centro, marcador 2-3.",
+    "fr": "RIV-08 progresse 14m au milieu, score 2-3."
    },
    "evidence": [
     "evt-0049"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -226,14 +226,14 @@
    "t": 141.6,
    "kind": "turnover",
    "text": {
-    "en": "NOR win it back at midfield \u2014 turnover in the center.",
-    "es": "NOR recupera la posesi\u00f3n en el mediocampo \u2014 p\u00e9rdida en el centro.",
-    "fr": "NOR r\u00e9cup\u00e8rent le ballon au milieu \u2014 perte au centre."
+    "en": "Turnover \u2014 NOR win it back at midfield, score 2-3.",
+    "es": "P\u00e9rdida \u2014 NOR recupera en el centro del campo, 2-3.",
+    "fr": "Perte de balle \u2014 NOR r\u00e9cup\u00e8re au milieu, score 2-3."
    },
    "evidence": [
     "evt-0063"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -242,14 +242,14 @@
    "t": 156.4,
    "kind": "goal",
    "text": {
-    "en": "NOR-09 slots it home \u2014 goal signalled (2-3).",
-    "es": "NOR-09 define y marca \u2014 gol (2-3).",
-    "fr": "NOR-09 conclut et marque \u2014 but (2-3)."
+    "en": "GOAL! NOR-09 finishes \u2014 scoreboard shows 2-3.",
+    "es": "\u00a1GOL! NOR-09 marca \u2014 marcador 2-3.",
+    "fr": "BUT ! NOR-09 marque \u2014 score 2-3."
    },
    "evidence": [
     "evt-0074"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -258,14 +258,14 @@
    "t": 172.8,
    "kind": "shot",
    "text": {
-    "en": "NOR-10 shoots from the box \u2014 xG 0.30.",
-    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.30.",
-    "fr": "NOR-10 frappe depuis la surface \u2014 xG 0.30."
+    "en": "NOR-10 shoots from the box \u2014 xG 0.30, score 2-3.",
+    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.30, marcador 2-3.",
+    "fr": "NOR-10 tire depuis la surface \u2014 xG 0.30, score 2-3."
    },
    "evidence": [
     "evt-0083"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -274,14 +274,14 @@
    "t": 174.2,
    "kind": "turnover",
    "text": {
-    "en": "RIV win it back inside the box \u2014 turnover at the danger area.",
-    "es": "RIV recupera el bal\u00f3n dentro del \u00e1rea \u2014 p\u00e9rdida en zona peligrosa.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon dans la surface \u2014 perte en zone dangereuse."
+    "en": "Turnover \u2014 RIV win it back at the box, score 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera dentro del \u00e1rea, 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re dans la surface, score 2-3."
    },
    "evidence": [
     "evt-0085"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -290,14 +290,14 @@
    "t": 201.2,
    "kind": "goal",
    "text": {
-    "en": "RIV-11 converts the chance \u2014 goal awarded (2-3).",
-    "es": "RIV-11 aprovecha la ocasi\u00f3n \u2014 gol se\u00f1alado (2-3).",
-    "fr": "RIV-11 convertit l'occasion \u2014 but accord\u00e9 (2-3)."
+    "en": "GOAL! RIV-11 scores, scoreboard reads 2-3.",
+    "es": "\u00a1GOL! RIV-11 anota, marcador 2-3.",
+    "fr": "BUT ! RIV-11 marque, score 2-3."
    },
    "evidence": [
     "evt-0098"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -306,14 +306,14 @@
    "t": 201.2,
    "kind": "shot",
    "text": {
-    "en": "RIV-11 shoots from the box \u2014 xG 0.26.",
-    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.26.",
-    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.26."
+    "en": "RIV-11 shoots from the box \u2014 xG 0.26, score 2-3.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.26, marcador 2-3.",
+    "fr": "RIV-11 tire depuis la surface \u2014 xG 0.26, score 2-3."
    },
    "evidence": [
     "evt-0097"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -322,14 +322,14 @@
    "t": 214.0,
    "kind": "dribble",
    "text": {
-    "en": "RIV-11 drives 14m through midfield, carrying the ball onwards.",
-    "es": "RIV-11 avanza 14m por el mediocampo con bal\u00f3n.",
-    "fr": "RIV-11 progresse 14m dans l'entrejeu en portant le ballon."
+    "en": "RIV-11 carries 14m through midfield, game still 2-3.",
+    "es": "RIV-11 avanza 14m por el centro, marcador 2-3.",
+    "fr": "RIV-11 progresse 14m au milieu, score 2-3."
    },
    "evidence": [
     "evt-0104"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -338,16 +338,16 @@
    "t": 222.0,
    "kind": "lane",
    "text": {
-    "en": "NOR-04 opens a lane to NOR-10 \u2014 medium risk opportunity.",
-    "es": "NOR-04 abre un carril hacia NOR-10 \u2014 riesgo medio.",
-    "fr": "NOR-04 ouvre un couloir vers NOR-10 \u2014 risque moyen."
+    "en": "NOR-04 opens a lane to NOR-10 \u2014 medium risk, score 2-3.",
+    "es": "NOR-04 abre una v\u00eda a NOR-10 \u2014 riesgo medio, 2-3.",
+    "fr": "NOR-04 ouvre une ligne vers NOR-10 \u2014 risque moyen, score 2-3."
    },
    "evidence": [
     "evt-0106",
     "evt-0107",
     "evt-0108"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -356,14 +356,14 @@
    "t": 299.4,
    "kind": "dribble",
    "text": {
-    "en": "NOR-10 carries 14m through midfield, advancing the attack.",
-    "es": "NOR-10 conduce 14m por el mediocampo, avanzando el ataque.",
-    "fr": "NOR-10 progresse 14m au milieu, faisant avancer l'attaque."
+    "en": "NOR-10 carries 14m through midfield, scoreboard 2-3.",
+    "es": "NOR-10 avanza 14m por el centro, marcador 2-3.",
+    "fr": "NOR-10 progresse 14m au milieu, score 2-3."
    },
    "evidence": [
     "evt-0143"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -390,14 +390,14 @@
    "t": 300.2,
    "kind": "shot",
    "text": {
-    "en": "NOR-10 shoots from the box \u2014 xG 0.39.",
-    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.39.",
-    "fr": "NOR-10 frappe depuis la surface \u2014 xG 0.39."
+    "en": "NOR-10 shoots from the box \u2014 xG 0.39, score 2-3.",
+    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.39, marcador 2-3.",
+    "fr": "NOR-10 tire depuis la surface \u2014 xG 0.39, score 2-3."
    },
    "evidence": [
     "evt-0144"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -406,14 +406,14 @@
    "t": 346.4,
    "kind": "turnover",
    "text": {
-    "en": "RIV regain possession inside the box \u2014 turnover recovered.",
-    "es": "RIV recupera la posesi\u00f3n dentro del \u00e1rea \u2014 p\u00e9rdida rival.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon dans la surface \u2014 r\u00e9cup\u00e9ration."
+    "en": "Turnover \u2014 RIV win it back at the box, score 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera dentro del \u00e1rea, marcador 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re dans la surface, score 2-3."
    },
    "evidence": [
     "evt-0169"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -422,14 +422,14 @@
    "t": 391.2,
    "kind": "dribble",
    "text": {
-    "en": "RIV-08 drives 14m through midfield, carrying momentum forward.",
-    "es": "RIV-08 avanza 14m por el mediocampo, llevando impulso.",
-    "fr": "RIV-08 progresse 14m au milieu, emportant l'\u00e9lan."
+    "en": "RIV-08 carries 14m through midfield, scoreboard 2-3.",
+    "es": "RIV-08 avanza 14m por el centro, marcador 2-3.",
+    "fr": "RIV-08 progresse 14m au milieu, score 2-3."
    },
    "evidence": [
     "evt-0188"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -438,14 +438,14 @@
    "t": 412.0,
    "kind": "turnover",
    "text": {
-    "en": "RIV win it back at the box \u2014 turnover recovered.",
-    "es": "RIV recupera el bal\u00f3n en el \u00e1rea \u2014 p\u00e9rdida del rival.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon dans la surface \u2014 turnover."
+    "en": "Turnover \u2014 RIV win it back at the box, score 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera dentro del \u00e1rea, marcador 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re dans la surface, score 2-3."
    },
    "evidence": [
     "evt-0198"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -454,14 +454,14 @@
    "t": 412.0,
    "kind": "lane",
    "text": {
-    "en": "RIV-02 opens a lane to RIV-11 \u2014 medium risk.",
-    "es": "RIV-02 abre un carril hacia RIV-11 \u2014 riesgo medio.",
-    "fr": "RIV-02 ouvre un couloir vers RIV-11 \u2014 risque moyen."
+    "en": "RIV-02 opens a medium-risk lane to RIV-11, score 2-3.",
+    "es": "RIV-02 abre una v\u00eda de riesgo medio a RIV-11, 2-3.",
+    "fr": "RIV-02 ouvre une ligne \u00e0 risque moyen vers RIV-11, score 2-3."
    },
    "evidence": [
     "evt-0199"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -470,14 +470,14 @@
    "t": 412.0,
    "kind": "lane",
    "text": {
-    "en": "RIV-02 opens a lane to RIV-09 \u2014 medium risk.",
-    "es": "RIV-02 abre un carril hacia RIV-09 \u2014 riesgo medio.",
-    "fr": "RIV-02 ouvre un couloir vers RIV-09 \u2014 risque moyen."
+    "en": "RIV-02 opens a medium-risk lane to RIV-09, score 2-3.",
+    "es": "RIV-02 abre una v\u00eda de riesgo medio a RIV-09, 2-3.",
+    "fr": "RIV-02 ouvre une ligne \u00e0 risque moyen vers RIV-09, score 2-3."
    },
    "evidence": [
     "evt-0199"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -486,14 +486,14 @@
    "t": 412.0,
    "kind": "lane",
    "text": {
-    "en": "RIV-02 opens a lane to RIV-08 \u2014 medium risk.",
-    "es": "RIV-02 abre un carril hacia RIV-08 \u2014 riesgo medio.",
-    "fr": "RIV-02 ouvre un couloir vers RIV-08 \u2014 risque moyen."
+    "en": "RIV-02 opens a medium-risk lane to RIV-08, score 2-3.",
+    "es": "RIV-02 abre una v\u00eda de riesgo medio a RIV-08, 2-3.",
+    "fr": "RIV-02 ouvre une ligne \u00e0 risque moyen vers RIV-08, score 2-3."
    },
    "evidence": [
     "evt-0199"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -502,14 +502,14 @@
    "t": 429.6,
    "kind": "shot",
    "text": {
-    "en": "RIV-11 shoots from the box \u2014 xG 0.29.",
-    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.29.",
-    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.29."
+    "en": "RIV-11 with a box shot \u2014 xG 0.29, score 2-3.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.29, marcador 2-3.",
+    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.29, score 2-3."
    },
    "evidence": [
     "evt-0204"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -518,16 +518,16 @@
    "t": 460.2,
    "kind": "press",
    "text": {
-    "en": "High press on RIV-09 \u2014 three opponents within 5m.",
-    "es": "Presi\u00f3n alta sobre RIV-09 \u2014 3 oponentes dentro de 5m.",
-    "fr": "Pressing \u00e9lev\u00e9 sur RIV-09 \u2014 3 adversaires \u00e0 moins de 5m."
+    "en": "High press on RIV-09: three opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre RIV-09: tres rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur RIV-09 : trois adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0213",
     "evt-0214",
     "evt-0215"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -536,14 +536,14 @@
    "t": 498.8,
    "kind": "dribble",
    "text": {
-    "en": "RIV-09 carries 14m through midfield, progressing into attack.",
-    "es": "RIV-09 avanza 14m por el mediocampo, progresando al ataque.",
-    "fr": "RIV-09 progresse 14m dans l'entrejeu, lan\u00e7ant l'offensive."
+    "en": "RIV-09 carries 14m through midfield, scoreboard 2-3.",
+    "es": "RIV-09 avanza 14m por el centro, marcador 2-3.",
+    "fr": "RIV-09 progresse 14m au milieu, score 2-3."
    },
    "evidence": [
     "evt-0234"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -552,16 +552,16 @@
    "t": 508.6,
    "kind": "press",
    "text": {
-    "en": "High press on RIV-09 \u2014 three opponents within 5m.",
-    "es": "Presi\u00f3n alta sobre RIV-09 \u2014 3 rivales a menos de 5m.",
-    "fr": "Pressing \u00e9lev\u00e9 sur RIV-09 \u2014 3 adversaires dans un rayon de 5m."
+    "en": "High press on RIV-09: three opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre RIV-09: tres rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur RIV-09 : trois adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0236",
     "evt-0237",
     "evt-0238"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -570,16 +570,16 @@
    "t": 509.2,
    "kind": "press",
    "text": {
-    "en": "High press on RIV-09 \u2014 four opponents within 5m.",
-    "es": "Presi\u00f3n alta sobre RIV-09 \u2014 4 oponentes dentro de 5m.",
-    "fr": "Pressing \u00e9lev\u00e9 sur RIV-09 \u2014 4 adversaires \u00e0 moins de 5m."
+    "en": "High press on RIV-09: four opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre RIV-09: cuatro rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur RIV-09 : quatre adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0236",
     "evt-0237",
     "evt-0238"
    ],
-   "confidence": 0.84,
+   "confidence": 0.78,
    "job": "explain",
    "verified": true
   },
@@ -588,16 +588,16 @@
    "t": 509.6,
    "kind": "press",
    "text": {
-    "en": "High press on RIV-09 \u2014 three opponents within 5m.",
-    "es": "Presi\u00f3n intensa sobre RIV-09 \u2014 3 rivales en 5m.",
-    "fr": "Pressing fort sur RIV-09 \u2014 3 adversaires dans 5m."
+    "en": "High press on RIV-09: three opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre RIV-09: tres rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur RIV-09 : trois adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0236",
     "evt-0237",
     "evt-0238"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -606,14 +606,14 @@
    "t": 510.0,
    "kind": "turnover",
    "text": {
-    "en": "NOR win it back at the box \u2014 turnover regained.",
-    "es": "NOR recupera la posesi\u00f3n en el \u00e1rea \u2014 p\u00e9rdida rival.",
-    "fr": "NOR r\u00e9cup\u00e8rent le ballon dans la surface \u2014 r\u00e9cup\u00e9ration."
+    "en": "Turnover \u2014 NOR win it back at the box, score 2-3.",
+    "es": "P\u00e9rdida \u2014 NOR recupera dentro del \u00e1rea, marcador 2-3.",
+    "fr": "Perte de balle \u2014 NOR r\u00e9cup\u00e8re dans la surface, score 2-3."
    },
    "evidence": [
     "evt-0240"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -622,14 +622,14 @@
    "t": 510.0,
    "kind": "lane",
    "text": {
-    "en": "NOR-10 opens a lane to NOR-09 \u2014 medium risk.",
-    "es": "NOR-10 abre un carril hacia NOR-09 \u2014 riesgo medio.",
-    "fr": "NOR-10 ouvre un couloir vers NOR-09 \u2014 risque moyen."
+    "en": "NOR-10 opens a medium-risk lane to NOR-09, score 2-3.",
+    "es": "NOR-10 abre una v\u00eda de riesgo medio a NOR-09, 2-3.",
+    "fr": "NOR-10 ouvre une ligne \u00e0 risque moyen vers NOR-09, score 2-3."
    },
    "evidence": [
     "evt-0243"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -638,14 +638,14 @@
    "t": 510.0,
    "kind": "lane",
    "text": {
-    "en": "NOR-10 opens a lane to NOR-11 \u2014 medium risk.",
-    "es": "NOR-10 abre un carril hacia NOR-11 \u2014 riesgo medio.",
-    "fr": "NOR-10 ouvre un couloir vers NOR-11 \u2014 risque moyen."
+    "en": "NOR-10 opens a medium-risk lane to NOR-11, score 2-3.",
+    "es": "NOR-10 abre una v\u00eda de riesgo medio a NOR-11, 2-3.",
+    "fr": "NOR-10 ouvre une ligne \u00e0 risque moyen vers NOR-11, score 2-3."
    },
    "evidence": [
     "evt-0243"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -654,15 +654,15 @@
    "t": 533.2,
    "kind": "press",
    "text": {
-    "en": "High press on NOR-10 \u2014 three opponents within 5m.",
-    "es": "Presi\u00f3n alta sobre NOR-10 \u2014 3 oponentes dentro de 5m.",
-    "fr": "Pressing sur NOR-10 \u2014 3 adversaires \u00e0 moins de 5m."
+    "en": "High press on NOR-10: three opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre NOR-10: tres rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur NOR-10 : trois adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0251",
     "evt-0252"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -671,14 +671,14 @@
    "t": 533.4,
    "kind": "goal",
    "text": {
-    "en": "NOR-10 converts \u2014 goal confirmed (2-3).",
-    "es": "NOR-10 convierte \u2014 gol confirmado (2-3).",
-    "fr": "NOR-10 transforme \u2014 but confirm\u00e9 (2-3)."
+    "en": "GOAL! NOR-10 scores, scoreboard reads 2-3.",
+    "es": "\u00a1GOL! NOR-10 marca, marcador 2-3.",
+    "fr": "BUT ! NOR-10 marque, score 2-3."
    },
    "evidence": [
     "evt-0252"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -687,14 +687,14 @@
    "t": 533.4,
    "kind": "shot",
    "text": {
-    "en": "NOR-10 shoots from the box \u2014 xG 0.39.",
-    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.39.",
-    "fr": "NOR-10 frappe depuis la surface \u2014 xG 0.39."
+    "en": "NOR-10 shoots from the box \u2014 xG 0.39, score 2-3.",
+    "es": "NOR-10 dispara desde el \u00e1rea \u2014 xG 0.39, marcador 2-3.",
+    "fr": "NOR-10 tire depuis la surface \u2014 xG 0.39, score 2-3."
    },
    "evidence": [
     "evt-0251"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -703,16 +703,16 @@
    "t": 533.6,
    "kind": "press",
    "text": {
-    "en": "High press on NOR-10 \u2014 three opponents within 5m.",
-    "es": "Presi\u00f3n intensa sobre NOR-10 \u2014 3 rivales en 5m.",
-    "fr": "Pressing \u00e9lev\u00e9 sur NOR-10 \u2014 3 adversaires dans 5m."
+    "en": "High press on NOR-10: three opponents within 5m, score 2-3.",
+    "es": "Presi\u00f3n alta sobre NOR-10: tres rivales a 5m, marcador 2-3.",
+    "fr": "Pressing haut sur NOR-10 : trois adversaires dans 5m, score 2-3."
    },
    "evidence": [
     "evt-0251",
     "evt-0252",
     "evt-0253"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -721,14 +721,14 @@
    "t": 549.8,
    "kind": "turnover",
    "text": {
-    "en": "RIV win it back at the box \u2014 turnover recovered.",
-    "es": "RIV recupera el bal\u00f3n en el \u00e1rea \u2014 p\u00e9rdida del rival.",
-    "fr": "RIV r\u00e9cup\u00e8rent le ballon dans la surface \u2014 r\u00e9cup\u00e9ration."
+    "en": "Turnover \u2014 RIV win it back at the box, score 2-3.",
+    "es": "P\u00e9rdida \u2014 RIV recupera dentro del \u00e1rea, marcador 2-3.",
+    "fr": "Perte de balle \u2014 RIV r\u00e9cup\u00e8re dans la surface, score 2-3."
    },
    "evidence": [
     "evt-0258"
    ],
-   "confidence": 0.84,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -737,14 +737,14 @@
    "t": 595.2,
    "kind": "goal",
    "text": {
-    "en": "RIV-11 finishes clinically \u2014 goal recorded (2-3).",
-    "es": "RIV-11 remata con acierto \u2014 gol anotado (2-3).",
-    "fr": "RIV-11 conclut avec sang-froid \u2014 but inscrit (2-3)."
+    "en": "GOAL! RIV-11 scores, scoreboard 2-3.",
+    "es": "\u00a1GOL! RIV-11 anota, marcador 2-3.",
+    "fr": "BUT ! RIV-11 marque, score 2-3."
    },
    "evidence": [
     "evt-0278"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   },
@@ -753,14 +753,14 @@
    "t": 595.2,
    "kind": "shot",
    "text": {
-    "en": "RIV-11 fires from the box \u2014 xG 0.34.",
-    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.34.",
-    "fr": "RIV-11 frappe depuis la surface \u2014 xG 0.34."
+    "en": "RIV-11 fires from the box \u2014 xG 0.34, score 2-3.",
+    "es": "RIV-11 dispara desde el \u00e1rea \u2014 xG 0.34, marcador 2-3.",
+    "fr": "RIV-11 tire depuis la surface \u2014 xG 0.34, score 2-3."
    },
    "evidence": [
     "evt-0277"
    ],
-   "confidence": 0.93,
+   "confidence": 0.88,
    "job": "explain",
    "verified": true
   }
