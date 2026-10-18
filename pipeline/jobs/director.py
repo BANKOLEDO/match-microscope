@@ -132,6 +132,8 @@ def run_match(match_id, use_llm=False, raw=None, on_event=None):
     mode = state.get("explain_mode", "template")
     backend = describe_backend() if mode == "agentic" else "offline (templates)"
     trace = {"match": match_id, "agents": backend, "jobs": rows, "handoffs": handoffs}
+    if state.get("crew_log"):
+        trace["crew"] = state["crew_log"]
     save_json(f"trace-{match_id}.json", trace)
     save_json(
         f"annotations-{match_id}.json",
