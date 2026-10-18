@@ -11,14 +11,14 @@ jobs:
   build-data:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - run: pip install -r pipeline/requirements.txt
       - run: python pipeline/generate.py
-      - run: python pipeline/run_pipeline.py --no-llm
-      - uses: actions/upload-artifact@v4
+      - run: python pipeline/run_pipeline.py
+      - uses: actions/upload-artifact@v7
         with:
           name: data
           path: public/data/
