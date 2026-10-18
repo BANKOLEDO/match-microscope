@@ -1,0 +1,54 @@
+{
+  "templates": {
+    "high_press": {
+      "en": "High press on {player} — {n} opponents within 5m",
+      "es": "Presión alta sobre {player} — {n} rivales a menos de 5 m",
+      "fr": "Gros pressing sur {player} — {n} adversaires à moins de 5 m"
+    },
+    "lane_open": {
+      "en": "{player} opens a lane to {mate} — {risk} risk",
+      "es": "{player} abre una línea de pase a {mate} — riesgo {risk}",
+      "fr": "{player} ouvre une ligne vers {mate} — risque {risk}"
+    },
+    "shot": {
+      "en": "Shot by {player} from {zone} — xG {xg}",
+      "es": "Disparo de {player} desde {zone} — xG {xg}",
+      "fr": "Frappe de {player} depuis {zone} — xG {xg}"
+    },
+    "goal": {
+      "en": "GOAL — {player} scores ({score})",
+      "es": "GOL — {player} marca ({score})",
+      "fr": "BUT — {player} marque ({score})"
+    },
+    "turnover": {
+      "en": "Turnover — {team} win it back at {zone}",
+      "es": "Pérdida — {team} recupera en {zone}",
+      "fr": "Perte de balle — {team} récupère à {zone}"
+    },
+    "overload": {
+      "en": "{team} overload — {n}v{m} on the {side}",
+      "es": "Superioridad de {team} — {n} contra {m} en {side}",
+      "fr": "Supériorité de {team} — {n} contre {m} à {side}"
+    },
+    "dribble": {
+      "en": "{player} carries {d}m through midfield",
+      "es": "{player} conduce {d} m por el mediocampo",
+      "fr": "{player} porte le ballon sur {d} m"
+    },
+    "space": {
+      "en": "Open space — {zone} unoccupied for {s}s",
+      "es": "Espacio libre — {zone} desocupada por {s} s",
+      "fr": "Espace libre — {zone} inoccupée pendant {s} s"
+    }
+  },
+  "zones": {
+    "en": { "left": "left wing", "center": "central zone", "right": "right wing", "box": "the box", "mid": "midfield" },
+    "es": { "left": "la banda izquierda", "center": "la zona central", "right": "la banda derecha", "box": "el área", "mid": "el mediocampo" },
+    "fr": { "left": "l'aile gauche", "center": "l'axe", "right": "l'aile droite", "box": "la surface", "mid": "le milieu" }
+  },
+  "sides": {
+    "en": { "left": "left", "right": "right" },
+    "es": { "left": "la izquierda", "right": "la derecha" },
+    "fr": { "left": "la gauche", "right": "la droite" }
+  }
+}
