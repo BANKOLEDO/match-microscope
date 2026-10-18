@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+__pycache__/
+*.pyc
+*.log
+*.tsbuildinfo
+
+# Local environment (keep the template committed)
+.env
+.env.local
+.env.*.local
