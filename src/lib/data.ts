@@ -118,10 +118,28 @@ export interface PersonalizedFile {
   languages: string[];
 }
 
+export interface CrewExample {
+  id: string;
+  t: number;
+  kind: string;
+  evidence: string[];
+  draft: string;
+  accept: boolean;
+  reason?: string;
+  outcome: 'kept' | 'rejected';
+}
+
+export interface CrewLog {
+  model: string;
+  counts: { drafted: number; checked: number };
+  examples: CrewExample[];
+}
+
 export interface TraceFile {
   match: string;
   jobs: { job: string; status: string; detail: string; attempts: number }[];
   handoffs: { from: string; to: string; timestamp: number; payload_size: number; status: string }[];
+  crew?: CrewLog;
 }
 
 export interface IndexFile {
