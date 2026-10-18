@@ -1,0 +1,70 @@
+{
+ "matches": [
+  {
+   "id": "syn-001",
+   "matchday": "Matchday 1",
+   "home": {
+    "id": "NOR",
+    "name": "Northside FC",
+    "color": "#E8ECEF"
+   },
+   "away": {
+    "id": "RIV",
+    "name": "Riverside United",
+    "color": "#C8FF3D"
+   },
+   "score": {
+    "home": 3,
+    "away": 2
+   },
+   "duration": 600,
+   "fps": 5,
+   "frames": 3000,
+   "events": 276
+  },
+  {
+   "id": "syn-002",
+   "matchday": "Matchday 2",
+   "home": {
+    "id": "NOR",
+    "name": "Northside FC",
+    "color": "#E8ECEF"
+   },
+   "away": {
+    "id": "RIV",
+    "name": "Harbour Athletic",
+    "color": "#C8FF3D"
+   },
+   "score": {
+    "home": 2,
+    "away": 3
+   },
+   "duration": 600,
+   "fps": 5,
+   "frames": 3000,
+   "events": 279
+  },
+  {
+   "id": "syn-003",
+   "matchday": "Matchday 3",
+   "home": {
+    "id": "NOR",
+    "name": "Eastvale Town",
+    "color": "#E8ECEF"
+   },
+   "away": {
+    "id": "RIV",
+    "name": "Riverside United",
+    "color": "#C8FF3D"
+   },
+   "score": {
+    "home": 1,
+    "away": 3
+   },
+   "duration": 600,
+   "fps": 5,
+   "frames": 3000,
+   "events": 278
+  }
+ ]
+}
